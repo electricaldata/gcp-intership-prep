@@ -32,3 +32,18 @@ It counts the number of unique items.
 
 What is a fully qualified table name? 
 `Project.Dataset.Table`
+
+GROUP BY: Take rows that share the same value and put them into buckets.
+If you use:
+
+COUNT
+SUM
+AVG
+MIN
+MAX
+
+then SQL needs to know:
+
+“Grouped by WHAT?”
+
+That’s what GROUP BY answers.
