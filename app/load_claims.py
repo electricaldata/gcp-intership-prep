@@ -6,7 +6,7 @@ SELECT
     *
 FROM `gcp-internship-prep.dataset_name.claims`
 WHERE claim_id IS NOT NULL 
-LIMIT 50
+LIMIT 100
 """
 
 
